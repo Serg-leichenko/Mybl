@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Mybl</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+  </head>
+  <body></body>
+    <div class="header__nav white">
+      <div class="header__top-bg"> 
+        <nav class="header__top">
+          <div class="header__top_phone"><i class="fa fa-phone" aria-hidden="true"></i><a href="#">+380 65 777 77 77</a></div>
+          <div class="header__top_person">
+            <div class="header__top_person">
+              <div class="man"><a href="#">Мужчинам</a></div>
+              <div class="woman"><a href="#">Женщинам</a></div>
+            </div>
+          </div>
+          <div class="header__top_enter"><a href="#">Войти</a><i class="fa fa-user" aria-hidden="true"></i></div>
+        </nav>
+      </div>
+      <div class="header__top_nav-bg">
+        <div class="header__top_nav">
+          <div class="header__top_nav_block">
+            <div class="header__top_nav_block_logo">          <a href="index.html"><img src="./img/logoWhite.png"></a></div>
+            <div class="header__top_nav_block_navig navList">
+              <div class="tochMenu"><a>Меню</a></div>
+              <ul>
+                <li><a href="catalog.html">Одежда  </a></li>
+                <li><a href="#">Обувь</a></li>
+                <li><a href="#">Аксессуары</a></li>
+                <li><a href="#">Спорт</a></li>
+                <li><a href="#">Бренды</a></li>
+                <li><a href="#">Sale                   </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="header__top_nav_block_search">
+            <div class="search">
+              <input type="text" placeholder="Поиск"><i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+            <div class="nav-icons"><i class="fa fa-heart" aria-hidden="true"></i><i class="fa fa-shopping-bag" aria-hidden="true"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="container">
+    <div class="container__tab">
+      <div class="container__tab_link"><a href="#">Каталог</a><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Одежда</a><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">MANGO</a></div>
+      <div class="sorting"><a href="#">Сортировка</a>
+        <div class="sortingPrice"><a href="#">По цене<i class="fa fa-angle-down" aria-hidden="true"></i></a></div>
+      </div>
+    </div>
+    <div class="container__clothes_gallery">
+      <div class="gallery-sideBar sideBar">
+        <div class="side-bar__catalog"><i class="fa fa-angle-right" aria-hidden="true"></i>
+          <p>Категории</p>
+        </div>
+        <div class="container__clothes">
+          <div class="container__clothes_name">
+            <div class="container__clothes_name_category menuCheckList">
+              <div class="category_list"><a href="#">Категория</a><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+              <div class="clothes-parents">
+                <div class="category__menu">
+                  <ul>
+                    <li>
+                      <input type="checkbox" id="checkbox-catalog1">
+                      <label for="checkbox-catalog1">платья</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="checkbox-catalog2">
+                      <label for="checkbox-catalog2">босоножки</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="checkbox-catalog3">
+                      <label for="checkbox-catalog3">брюки</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="checkbox-catalog4">
+                      <label for="checkbox-catalog4">балетки</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="checkbox-catalog5">
+                      <label for="checkbox-catalog5">юбки</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="checkbox-catalog6">
+                      <label for="checkbox-catalog6">сумки</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="checkbox-catalog7">
+                      <label for="checkbox-catalog7">аксессуары</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="checkbox-catalog8">
+                      <label for="checkbox-catalog8">дом</label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container__clothes_name">
+            <div class="container__clothes_name_designer designerList">
+              <div class="category_list"><a href="#">Дизайнер</a><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+              <div class="clothes-parents">
+                <div class="designers__menu">
+                  <div class="designers__menu_input">
+                    <input type="text" placeholder="Дизайнер"><i class="fa fa-search designers_search" aria-hidden="true"></i>
+                  </div>
+                  <div class="designers__menu_list">
+                    <ul>
+                      <li>
+                        <input type="checkbox" id="checkbox-designer1">
+                        <label for="checkbox-designer1">Дизайнер 1</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" id="checkbox-designer2">
+                        <label for="checkbox-designer2">Дизайнер 2</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" id="checkbox-designer3">
+                        <label for="checkbox-designer3">Дизайнер 3</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" id="checkbox-designer4">
+                        <label for="checkbox-designer4">Дизайнер 4</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" id="checkbox-designer5">
+                        <label for="checkbox-designer5">Дизайнер 5 </label>
+                      </li>
+                      <li>
+                        <input type="checkbox" id="checkbox-designer6">
+                        <label for="checkbox-designer6">Дизайнер 6</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" id="checkbox-designer7">
+                        <label for="checkbox-designer7">Дизайнер 7</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" id="checkbox-designer8">
+                        <label for="checkbox-designer8">Дизайнер 8</label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container__clothes_name">
+            <div class="container__clothes_name_price priceList">
+              <div class="category_list"><a href="#">Цена</a><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+              <div class="clothes-parents">
+                <div class="price__range">
+                  <div class="price__range_numbers">
+                    <input type="text" id="amount1">
+                    <input type="text" id="amount2">
+                  </div>
+                  <div class="price__rang_range">
+                    <div id="price-range-slider"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container__clothes_name">
+            <div class="container__clothes_name_size sizeMenu">
+              <div class="category_list"><a href="#">Размер</a><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+              <div class="clothes-parents">
+                <div class="size__menu">
+                  <div class="size__menu_size menu_size_xs colorSize">XS</div>
+                  <div class="size__menu_size menu_size_xs_s colorSize">S</div>
+                  <div class="size__menu_size menu_size_xs_m colorSize">M</div>
+                  <div class="size__menu_size menu_size_xs_l colorSize">L</div>
+                  <div class="size__menu_size menu_size_xs_xl colorSize">XL</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container__clothes_name">
+            <div class="container__clothes_name_heel-height heelHeight">
+              <div class="category_list"><a href="#">Высота каблука</a><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+              <div class="clothes-parents">
+                <div class="heel-height heelHeightColor">
+                  <div class="heel-height__menu heelHeightSm">3см</div>
+                  <div class="heel-height__menu heelHeightSm">5см</div>
+                  <div class="heel-height__menu heelHeightSm">7см</div>
+                  <div class="heel-height__menu heelHeightSm">12см</div>
+                  <div class="heel-height__menu heelHeightSm">14см</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container__clothes_name">
+            <div class="container__clothes_name_color colorsMenu">
+              <div class="category_list"><a href="#">Цвет</a><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+              <div class="clothes-parents">
+                <div class="colors">
+                  <div class="colors__item_first">
+                    <div class="colors__item colors__item1 itemMenu"></div>
+                    <div class="colors__item colors__item2 itemMenu"></div>
+                    <div class="colors__item colors__item3 itemMenu"></div>
+                    <div class="colors__item colors__item4 itemMenu"></div>
+                    <div class="colors__item colors__item5 itemMenu"></div>
+                    <div class="colors__item colors__item6 itemMenu"></div>
+                  </div>
+                  <div class="colors__item_second">
+                    <div class="colors__item colors__item7 itemMenu"></div>
+                    <div class="colors__item colors__item8 itemMenu"></div>
+                    <div class="colors__item colors__item9 itemMenu"></div>
+                    <div class="colors__item colors__item10 itemMenu"></div>
+                    <div class="colors__item colors__item11 itemMenu"></div>
+                    <div class="colors__item colors__item12 itemMenu"></div>
+                  </div>
+                  <div class="colors__item_thirth">
+                    <div class="colors__item colors__item13 itemMenu"></div>
+                    <div class="colors__item colors__item14 itemMenu"></div>
+                    <div class="colors__item colors__item15 itemMenu"></div>
+                    <div class="colors__item colors__item16 itemMenu"></div>
+                    <div class="colors__item colors__item17 itemMenu"></div>
+                    <div class="colors__item colors__item18 itemMenu"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container__clothes_name">
+            <div class="container__clothes_name_details menuCheckList">
+              <div class="category_list"><a href="#">Детали</a><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+              <div class="clothes-parents"></div>
+            </div>
+          </div>
+        </div>
+        <div class="recommends recommends__for-her">
+          <div class="recommends__container">
+            <div class="recommends__her">
+              <div class="recommends__her_title">Рекомендуем</div>
+              <div class="recommends__her_subtitle">Одежда для нее</div>
+            </div>
+            <div class="recommends__her_all">
+              <div class="recommends__her_shoes">
+                <div class="recommends__her_shoes_item_photo"><img src="./img/cardigan.jpg">
+                  <div class="chosen"><i class="fa fa-heart" aria-hidden="true"><span>В избранное</span></i></div>
+                </div>
+                <div class="recommends__her_shoes_item_name">Кардиган MANGO</div>
+                <div class="recommends__her_shoes_item_bay">760$<a class="price" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    <p>Купить</p><span>760$</span></a></div>
+              </div>
+              <div class="recommends__her_shoes">
+                <div class="recommends__her_shoes_item_photo image-padd"><img src="./img/coat.jpg">
+                  <div class="chosen"><i class="fa fa-heart" aria-hidden="true"><span>В избранное</span></i></div>
+                </div>
+                <div class="recommends__her_shoes_item_name">Пальто MANGO</div>
+                <div class="recommends__her_shoes_item_bay">2390$<a class="price" href="card-product.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    <p>Купить</p><span>2390$</span></a></div>
+              </div>
+              <div class="recommends__her_shoes">
+                <div class="recommends__her_shoes_item_photo"><img src="./img/pants.jpg">
+                  <div class="chosen"><i class="fa fa-heart" aria-hidden="true"><span>В избранное</span></i></div>
+                </div>
+                <div class="recommends__her_shoes_item_name">Брюки MANGO</div>
+                <div class="recommends__her_shoes_item_bay">270$<a class="price" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    <p>Купить</p><span>270$</span></a></div>
+              </div>
+            </div>
+            <div class="recommends__her_all">
+              <div class="recommends__her_shoes">
+                <div class="recommends__her_shoes_item_photo"><img src="./img/cardigan.jpg">
+                  <div class="chosen"><i class="fa fa-heart" aria-hidden="true"><span>В избранное</span></i></div>
+                </div>
+                <div class="recommends__her_shoes_item_name">Кардиган MANGO</div>
+                <div class="recommends__her_shoes_item_bay">760$<a class="price" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    <p>Купить</p><span>760$</span></a></div>
+              </div>
+              <div class="recommends__her_shoes">
+                <div class="recommends__her_shoes_item_photo image-padd"><img src="./img/coat.jpg">
+                  <div class="chosen"><i class="fa fa-heart" aria-hidden="true"><span>В избранное</span></i></div>
+                </div>
+                <div class="recommends__her_shoes_item_name">Пальто MANGO</div>
+                <div class="recommends__her_shoes_item_bay">2390$<a class="price" href="card-product.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    <p>Купить</p><span>2390$</span></a></div>
+              </div>
+              <div class="recommends__her_shoes">
+                <div class="recommends__her_shoes_item_photo"><img src="./img/pants.jpg">
+                  <div class="chosen"><i class="fa fa-heart" aria-hidden="true"><span>В избранное</span></i></div>
+                </div>
+                <div class="recommends__her_shoes_item_name">Брюки MANGO</div>
+                <div class="recommends__her_shoes_item_bay">270$<a class="price" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    <p>Купить</p><span>270$</span></a></div>
+              </div>
+            </div>
+            <div class="recommends__her_all">
+              <div class="recommends__her_shoes">
+                <div class="recommends__her_shoes_item_photo"><img src="./img/cardigan.jpg">
+                  <div class="chosen"><i class="fa fa-heart" aria-hidden="true"><span>В избранное</span></i></div>
+                </div>
+                <div class="recommends__her_shoes_item_name">Кардиган MANGO</div>
+                <div class="recommends__her_shoes_item_bay">760$<a class="price" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    <p>Купить</p><span>760$</span></a></div>
+              </div>
+              <div class="recommends__her_shoes">
+                <div class="recommends__her_shoes_item_photo image-padd"><img src="./img/coat.jpg">
+                  <div class="chosen"><i class="fa fa-heart" aria-hidden="true"><span>В избранное</span></i></div>
+                </div>
+                <div class="recommends__her_shoes_item_name">Пальто MANGO</div>
+                <div class="recommends__her_shoes_item_bay">2390$<a class="price" href="card-product.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    <p>Купить</p><span>2390$</span></a></div>
+              </div>
+              <div class="recommends__her_shoes">
+                <div class="recommends__her_shoes_item_photo"><img src="./img/pants.jpg">
+                  <div class="chosen"><i class="fa fa-heart" aria-hidden="true"><span>В избранное</span></i></div>
+                </div>
+                <div class="recommends__her_shoes_item_name">Брюки MANGO</div>
+                <div class="recommends__her_shoes_item_bay">270$<a class="price" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    <p>Купить</p><span>270$</span></a></div>
+              </div>
+            </div>
+            <div class="recommends__her_all">
+              <div class="recommends__her_shoes">
+                <div class="recommends__her_shoes_item_photo"><img src="./img/cardigan.jpg">
+                  <div class="chosen"><i class="fa fa-heart" aria-hidden="true"><span>В избранное</span></i></div>
+                </div>
+                <div class="recommends__her_shoes_item_name">Кардиган MANGO</div>
+                <div class="recommends__her_shoes_item_bay">760$<a class="price" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    <p>Купить</p><span>760$</span></a></div>
+              </div>
+              <div class="recommends__her_shoes">
+                <div class="recommends__her_shoes_item_photo image-padd"><img src="./img/coat.jpg">
+                  <div class="chosen"><i class="fa fa-heart" aria-hidden="true"><span>В избранное</span></i></div>
+                </div>
+                <div class="recommends__her_shoes_item_name">Пальто MANGO</div>
+                <div class="recommends__her_shoes_item_bay">2390$<a class="price" href="card-product.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    <p>Купить</p><span>2390$</span></a></div>
+              </div>
+              <div class="recommends__her_shoes">
+                <div class="recommends__her_shoes_item_photo"><img src="./img/pants.jpg">
+                  <div class="chosen"><i class="fa fa-heart" aria-hidden="true"><span>В избранное</span></i></div>
+                </div>
+                <div class="recommends__her_shoes_item_name">Брюки MANGO</div>
+                <div class="recommends__her_shoes_item_bay">270$<a class="price" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    <p>Купить</p><span>270$</span></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="nav-page">
+            <div class="btn-prew"><i class="fa fa-angle-left" aria-hidden="true"><a href="index.html">Назад</a></i></div>
+            <div class="number-page"><a href="#">1</a>
+              <p>из</p><a href="#">4</a>
+            </div>
+            <div class="btn-next"><a href="#">Дальше<i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="registration">
+      <div class="registration__email">
+        <div class="registration__email_text">Зарегистрируйтесь по электронной почте и получите <span>скидку 25%</span></div>
+        <div class="registration__email_input">
+          <input type="text" placeholder="Ваш E-mail"><a href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="registration__woman_img"><img src="./img/footer-woman-img.png"></div>
+    </div>
+    <div class="footer__navigation">
+      <div class="footer__navigation_container">
+        <div class="footer__navigation_container_menu">
+          <ul>
+            <li class="about_us"><a href="#">О нас</a></li>
+            <li><a href="#">Доставка и оплата</a></li>
+            <li><a href="#">Политика безопасности</a></li>
+            <li><a href="#">Условия соглашения</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Связаться с нами</a></li>
+            <li><a href="#">Возврат товара</a></li>
+            <li><a href="#">Карта сайта</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Связаться с нами</a></li>
+            <li><a href="#">Возврат товара</a></li>
+            <li><a href="#">Карта сайта</a></li>
+          </ul>
+        </div>
+        <div class="footer__navigation_social"><i class="fa fa-phone" aria-hidden="true"></i><a href="#">+38095 684 09 23				</a>
+          <div class="social-icons"><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__credits">
+      <div class="footer__credits_text">MYBL © 2019. Все права защищены.</div>
+      <div class="footer__credits_images"><img class="visa" src="./img/visa.png"><img src="./img/visa-icon.png"></div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://kit.fontawesome.com/5a555e1f9c.js"></script>
+  <script src="js/main.min.js"></script>
+</html>
